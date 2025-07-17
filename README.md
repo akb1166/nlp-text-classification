@@ -58,12 +58,6 @@ nlp-text-classification/
    pip install -r requirements.txt
    ```
 
-3. **Prepare your data**:
-   - Create the `data/` folder in the project root
-   - Add your text files in the respective subfolders:
-     - `data/business/`
-     - `data/entertainment/`
-     - `data/sport/`
 
 ## Usage
 
@@ -140,3 +134,7 @@ self.subcategories = {
 - PyTorch
 - Transformers library
 - 4GB+ RAM recommended
+
+## Citation
+
+D. Greene and P. Cunningham. "Practical Solutions to the Problem of Diagonal Dominance in Kernel Document Clustering", Proc. ICML 2006. [PDF] [BibTeX].
